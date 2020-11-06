@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: tomato;
+}
+.profiles{
+    height: 15vh;
+}
+.links{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+.links li{
+    font-size: 2.5rem;
+}
+.links li a{
+    text-decoration: none;
+    color: #400E19;    
+}
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+}
+.head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+.fa-arrow-left{
+    color: #400E19;
+}
+.image{
+    width: 50%;
+    overflow: hidden;
+}
+.image img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.about{
+    padding: 3rem 4rem;
+    color: #400E19;
+    font-size: 2.5rem;
+}
+
+.project h1{
+    letter-spacing: 0.5rem;
+}
+.hover{
+    color: black;
+}
+.socials{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+footer{
+    margin: auto;
+    margin-top: 3rem;
+    border: 1px solid brown;
+    width: 30%;
+    background: black;
+}
+.socials li{
+    padding-top: 1rem;
+}
+.socials li a{
+    font-size: 2rem;
+}
+.mail{
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    color: purple;
+}
+.projects{
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    color: WHITE;
+    background: crimson;
+    background-size: cover;
+    margin: auto;
+    align-items: center;
+    padding: 3rem;
+    border: 2px solid black;
+}
+.projects h1{
+    letter-spacing: 1.5rem;
+}
+.fa-instagram:hover{
+    color: #bc2a8d;   
+}
+.fa-reddit:hover{
+    color: orangered; 
+    background: white;
+    border-radius: 50%;  
+}
+.fa-facebook:hover{
+    color: #3b5998;  
+    background: white;
+    border-radius: 50%;  
+}
+.fa-twitter:hover{
+    color: rgb(0, 238, 255);   
+}
+
+.appear{
+    opacity: 1;
+}
+.roller{
+    text-decoration: none;
+    color: #b90028;
+}
+.project{
+    transition: all 1s ease;
+    background: tomato;
+    color: #400E19;
+    margin: 4rem;
+    border-radius: 25px;
+    box-shadow: -10px 10px 20px rgb(68, 17, 51);
+}
+.project h1,.project p{
+    padding: 3rem 1.5rem;
+}
+.project p{
+    font-size: 1.5rem;
+}
+.project1 h1::before{
+    content: "B";
+    font-size: 3rem;
+}
+.project2 h1::before{
+    content: "B";
+    font-size: 3rem;
+}
+.project3 h1::before{
+    content: "R";
+    font-size: 3rem;
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+    body{
+        width: 100%;
+    }
+    .links li,.about{
+        font-size: 1.5rem;
+    }
+    .head{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .image{
+        margin: auto;
+    }
+    .projects{
+        width: 70%;
+    }
+    .projects h1{
+        letter-spacing: 1rem;
+    }
+    .project-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    footer{
+        width: 100%;
+    }
+  }
