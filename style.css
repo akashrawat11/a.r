@@ -78,12 +78,13 @@ footer{
 }
 .socials li a{
     font-size: 2rem;
+    color: crimson;
 }
 .mail{
     text-align: center;
     padding: 1rem 1rem;
     font-size: 1.2rem;
-    color: purple;
+    color: crimson;
 }
 .projects{
     width: 50%;
