@@ -159,7 +159,7 @@ footer{
         width: 100%;
     }
     .links li,.about{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .head{
         display: block;
@@ -173,7 +173,8 @@ footer{
         width: 70%;
     }
     .projects h1{
-        letter-spacing: 1rem;
+        letter-spacing: 0.8rem;
+        font-size: 1.5rem;
     }
     .project-container{
         grid-template-columns: 1fr;
@@ -181,5 +182,6 @@ footer{
     }
     footer{
         width: 100%;
+        color: crimson;
     }
   }
