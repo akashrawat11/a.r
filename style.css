@@ -171,6 +171,8 @@ footer{
     }
     .projects{
         width: 70%;
+        text-align: center;
+        padding: 1.5rem;
     }
     .projects h1{
         letter-spacing: 0.8rem;
@@ -179,6 +181,14 @@ footer{
     .project-container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+    }
+    .project h1{
+        padding: 1rem 1rem;
+        font-size: 1.5rem;
+    }
+     .project p{
+        padding: 1rem 1rem;
+        font-size: 1rem;
     }
     footer{
         width: 100%;
